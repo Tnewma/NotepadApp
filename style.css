@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background: linear-gradient(90deg, #1e5799 0%, #2989d8 50%, #7db9e8 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+}
+.info-text{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 40px;
+    justify-content: center;
+    padding:50px;
+}
+.note {
+    padding: 17px;
+    border-radius: 15px;
+    resize: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    height: 200px;
+    color: #333;
+    border: none;
+    outline: none;
+    background:rgba(255,255,255,0.9);
+    box-sizing: border-box;
+}
+
+.note::placeholder{
+    color: #333;
+    opacity: 30%
+}
+.note:hover, .note:focus{
+    background:rgba(255,255,255,0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: 300ms ease;
+}
+
+.btn{
+    height: 200px;
+    border-color: #fff;
+    background: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgba(255,255,255,0.8);
+    transition: 300ms ease;
+}
